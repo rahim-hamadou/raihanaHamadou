@@ -4,13 +4,13 @@ import styles from "./ContactForm.module.css";
 function ContactForm() {
 	return (
 		<form
-			className={styles.form_container}
+			className={styles.contact_container}
 			action="mailto:techeaseassociation@gmail.com"
 			method="get"
-			enctype="text/plain"
+			encType="text/plain"
 		>
-			Nom
-			<input type="text" name="subject" placeholder="Votre nom" />
+			Sujet
+			<input type="text" name="subject" placeholder="Votre Sujet" />
 			Email:
 			<input type="email" name="email" placeholder="Votre Email" />
 			Message:

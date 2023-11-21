@@ -12,14 +12,14 @@ function NavBar() {
 	};
 
 	return (
-		<nav className="navBar_container bg-blue-500 hover:bg-blue-700 p-4 ">
+		<nav className="navBar_container bg-amber-300 hover:bg-amber-400 p-4 ">
 			<div className="container mx-auto">
 				<div className="flex  justify-between">
-					<Link href="/" className="text-white text-lg font-bold">
-						TechEase
+					<Link href="/" className=" text-xl font-bold">
+						TakeCare
 					</Link>
 					<div className="lg:hidden">
-						<button onClick={toggleMenu} className="text-white focus:outline-none">
+						<button onClick={toggleMenu} className=" focus:outline-none">
 							{/* Burger icon for mobile */}
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -42,11 +42,11 @@ function NavBar() {
 							isMenuOpen ? "flex" : "hidden"
 						} flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4`}
 					>
-						<Link href="/team" className="text-white">
-							Nos Offres
+						<Link href="/activity" className="text-black">
+							Mon activité
 						</Link>
-						<Link href="/contact" className="text-white">
-							Contactez-nous
+						<Link href="/contact" className="text-black">
+							Me joindre
 						</Link>
 					</div>
 				</div>

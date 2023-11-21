@@ -1,7 +1,6 @@
 .footer_list {
 	display: flex;
 	align-items: flex-start;
-	/* align-items: center; */
 	justify-content: space-around;
 	text-overflow: ellipsis;
 	overflow-wrap: break-word;

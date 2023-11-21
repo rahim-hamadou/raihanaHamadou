@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,11 +18,123 @@
 	}
 }
 
+/* BODY */
+
 body {
-	color: rgb(var(--foreground-rgb));
-	background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+	font-size: clamp(0.9rem, 1.5vw, 2rem);
 }
 
+.body_head_container {
+	background-image: url("./assets/bg/sleep.jpg");
+	background-position: center;
+	background-size: cover;
+	backdrop-filter: blur(80px);
+}
+.body_head_container:hover {
+	backdrop-filter: blur(2px);
+}
+
+.container_body {
+	padding: 20px 0;
+	min-height: 100vh;
+	/* border: 5px solid blueviolet; */
+	background-color: rgb(230, 217, 207);
+}
+
+.action_call {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 30px;
+}
+@media only screen and (max-width: 600px) {
+	.action_call {
+		flex-direction: row;
+	}
+}
+
+.icon {
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	.icon {
+		display: flex;
+		flex-direction: column;
+		margin: 5px;
+	}
+}
+.icon_el {
+	margin: 8px;
+}
+
+.home_header_message {
+	margin: 20px;
+}
+
+.service_list {
+	margin: 20px;
+}
+
+.services_items {
+	margin: 20px;
+}
+
+.home_header_message_footer {
+	margin: 20px;
+}
+
+.home_header_message_footer_salutation {
+	margin: 20px;
+}
+
+/* ACTIVITY */
+
+.activity_container {
+	margin: 50px;
+}
+.activity_container_services_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: center;
+	align-items: center;
+}
+
+.activity_container_description {
+	margin: 20px;
+}
+
+.service_header_title {
+	margin: 20px;
+}
+
+/* CONTACT */
+
+.contact_section {
+	width: 80%;
+	margin: auto;
+}
+.contact_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+	.contact_container {
+		flex-direction: column;
+	}
+}
+
+.contact_container_salutation {
+	margin: auto;
+	text-align: center;
+}
 /* Responsive */
 
 @media only screen and (max-width: 600px) {

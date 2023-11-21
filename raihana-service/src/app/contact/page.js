@@ -8,19 +8,19 @@ import ContactPhone from "../components/ContactPhone/ContactPhone.js";
 
 function contact() {
 	let dataContact = {
-		title: "TechEase",
+		title: "TakeCare",
 		title_head: `Posez-nous vos questions, nous avons les réponses!`,
-		invitation: `Nous espérons que tout va bien de ton côté! 🌟 Si tu as atterri sur notre site, c'est que tu as probablement des questions sur nos services de dépannage informatique, de création de sites web, ou d'autres prestations que nous proposons.
-
-		Ne te retiens surtout pas! Nous sommes là pour répondre à toutes tes interrogations, que ce soit sur les tarifs, les services spécifiques, ou même pour discuter de situations particulières auxquelles tu fais face.
-		
-		Chez Techease, nous accordons une grande importance à la satisfaction de nos clients. La transparence et la communication sont nos maîtres-mots. N'hésite pas à nous écrire, nous sommes là pour t'aider.
-		
-		Tu peux compter sur une réponse rapide de notre part. Ton confort et ta tranquillité d'esprit sont notre priorité.
-		Sans oublier que nosu sommes aussi joignable par telephone.
+		location: "Ile-De-France",
+		invitation: `Chez TakeCare, nous sommes déterminés à offrir des services de puériculture exceptionnels, adaptés à vos besoins uniques. Si vous avez des questions, des demandes spécifiques ou si vous souhaitez en savoir plus sur nos offres, n'hésitez pas à nous contacter.
 		
 
-		À très bientôt`,
+		Notre équipe dévouée est là pour répondre à toutes vos interrogations et discuter de la manière dont TakeCare peut contribuer au bien-être de votre famille. Votre tranquillité d'esprit commence ici !
+
+		
+
+		`,
+		salutation: `
+		Prenez soin de vos petits trésors avec TakeCare.`,
 	};
 	return (
 		<>
@@ -30,15 +30,14 @@ function contact() {
 					<h1 className="home_header_title text-center mb-5">{dataContact.title_head}</h1>
 					<p className="invitation">{dataContact.invitation}</p>
 				</div>
-
 				{/* <Card /> */}
 				<div className="contact_container ">
 					<ContactForm />
-					<ContactPhone />
+					<ContactPhone title={dataContact.title} location={dataContact.location} />
 				</div>
+				<h2 className="contact_container_salutation ">{dataContact.salutation}</h2>
 			</div>
 
-			{/* <Link href="/">join Home</Link> */}
 			<Footer />
 		</>
 	);

@@ -2,7 +2,6 @@
 	max-width: 1600px;
 	margin: 0 auto;
 	padding: 100px 20px 0;
-	/* border: 5px solid green; */
 }
 .text {
 	text-transform: uppercase;
@@ -36,12 +35,12 @@
 	animation: txt-appearance 0s 1.25s forwards;
 }
 .text:nth-child(1) .span_el::after {
-	background: salmon;
+	background: rgb(252 211 77);
 	/* background: salmon; */
 	animation: slide-in 0.75s ease-out forwards, slide-out 0.75s 1s ease-out forwards;
 }
 .text:nth-child(2) .span_el::after {
-	background: royalblue;
+	background: rgb(251 191 36);
 	/* background: royalblue; */
 	animation: slide-in 0.75s 0.3s ease-out forwards, slide-out 0.75s 1.3s ease-out forwards;
 }

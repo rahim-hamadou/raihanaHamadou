@@ -5,14 +5,14 @@ import ImgComponent from "../contain_img/ImgComponent.js";
 function ContactPhone(data) {
 	return (
 		<div className={styles.contactphone_container}>
-			<h2 className={styles.contactphone_title}>TechEase</h2>
+			<h2 className={styles.contactphone_title}>{data.title}</h2>
 			<p>
-				Adresse: <span>Ile-de-france</span>
+				Localisation: <span>{data.location}</span>
 			</p>
 			<p>
 				Telephone:
-				<a className="icon_el" href="tel: 0123456789">
-					0123456789
+				<a className="icon_el" href="tel: 0667862607">
+					0667862607
 				</a>
 			</p>
 		</div>
