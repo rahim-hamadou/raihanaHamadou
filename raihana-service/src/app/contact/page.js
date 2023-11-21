@@ -2,7 +2,7 @@
 import NavBar from "../components/navBar/NavBar.js";
 import Footer from "../components/footer/Footer.js";
 import ContactForm from "../components/contacform/ContactForm.js";
-import ContactPhone from "../components/ContactPhone/ContactPhone.js";
+import ContactPhone from "../components/contactphone/ContactPhone.js";
 
 function contact() {
 	let dataContact = {
