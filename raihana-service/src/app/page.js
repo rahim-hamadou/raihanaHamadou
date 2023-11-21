@@ -21,7 +21,7 @@ export default function Home() {
 			eveil: `Nous croyons en l'importance du jeu dans le développement des compétences cognitives et sociales de votre enfant. Les spécialistes de TakeCare créent un environnement stimulant qui favorise l'apprentissage et l'éveil, tout en respectant les rythmes naturels de votre tout-petit.`,
 			flexible: ` Nous comprenons que chaque famille est unique. C'est pourquoi nous offrons des horaires flexibles et des services adaptés à vos besoins spécifiques, apportant ainsi confort et tranquillité d'esprit à votre domicile.`,
 		},
-		message_footer: `	Je suis une professionnelle de la puériculture hautement qualifiés et dévoués. La sécurité de votre enfant est ma priorité absolue chez TakeCare. Je respecte les normes les plus strictes en matière de sécurité et d'hygiène.
+		message_footer: `	Je suis une professionnelle de la puériculture hautement qualifiée et dévouée. La sécurité de votre enfant est ma priorité absolue chez TakeCare. Je respecte les normes les plus strictes en matière de sécurité et d'hygiène.
     
     Je suis consciente que chaque enfant est unique, et mes services sont adaptés pour répondre aux besoins spécifiques de chaque petit individu.
     

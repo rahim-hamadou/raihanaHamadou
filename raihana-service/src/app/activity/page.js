@@ -6,7 +6,7 @@ import Item from "../components/item/Item.js";
 
 function team() {
 	const data = {
-		title: "Depannage",
+		title: "TakeCare",
 		content:
 			"Pour un dépannage rapide et efficace, contactez nos experts. Disponibles 24/7, résolution de problèmes informatiques, électroniques, mécaniques et plus encore.",
 		services:
@@ -28,12 +28,12 @@ function team() {
 						/>
 						<Item
 							title="Eveil"
-							content="Installation informatique complète : matériel, logiciels, réseau. Experts disponibles pour répondre à vos besoins. Contactez-nous pour une solution sur mesure."
+							content="Nous favorisons le jeu pour développer les compétences de votre enfant. Nos experts créent un environnement stimulant qui encourage l'apprentissage tout en respectant son rythme naturel."
 							src="/play2.jpg"
 						/>
 						<Item
 							title="Flexible"
-							content="Conception de sites web sur mesure. Design attractif, fonctionnalités avancées. Contactez-nous pour concrétiser votre vision en ligne avec succès."
+							content="Nous comprenons que chaque famille est unique. C'est pourquoi nous offrons des horaires flexibles et des services adaptés à vos besoins spécifiques, apportant ainsi confort et tranquillité d'esprit à votre domicile."
 							src="/eveil.jpg"
 						/>
 					</ul>
