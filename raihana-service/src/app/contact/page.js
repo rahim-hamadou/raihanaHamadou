@@ -13,9 +13,6 @@ function contact() {
 		
 
 		Notre équipe dévouée est là pour répondre à toutes vos interrogations et discuter de la manière dont TakeCare peut contribuer au bien-être de votre famille. Votre tranquillité d'esprit commence ici !
-
-		
-
 		`,
 		salutation: `
 		Prenez soin de vos petits trésors avec TakeCare.`,
