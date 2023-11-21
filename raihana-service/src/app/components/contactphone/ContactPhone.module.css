@@ -1,0 +1,17 @@
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	width: 50%;
+	margin: auto 0;
+	text-align: center;
+}
+
+.contactphone_container {
+	margin: 0 30px;
+}
+
+.contactphone_title {
+	font-size: 25px;
+	text-align: center;
+}
