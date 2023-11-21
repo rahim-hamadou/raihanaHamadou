@@ -1,7 +1,6 @@
 // @ts-ignore
-import Link from "next/Link";
-import Image from "next/Image";
-import NavBar from "../components/navBar/navBar.js";
+import Image from "next/image";
+import NavBar from "../components/navBar/NavBar.js";
 import Footer from "../components/footer/Footer.js";
 import Item from "../components/item/Item.js";
 
