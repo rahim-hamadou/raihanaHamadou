@@ -2,7 +2,7 @@
 import styles from "./NavBar.module.css";
 import React, { useEffect, useState } from "react";
 
-import Link from "next/Link";
+import Link from "next/link";
 
 function NavBar() {
 	const [isMenuOpen, setMenuOpen] = useState(false);
