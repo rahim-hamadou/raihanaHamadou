@@ -6,6 +6,8 @@ import Textanime from "./components/textanime/textanime.js";
 import ImgComponent from "./components/contain_img/ImgComponent.js";
 
 const name = "TakeCare";
+
+const bg = "./assets/bg/sleep.jpg";
 export default function Home() {
 	let data = {
 		name: "TakeCare",
@@ -42,7 +44,8 @@ export default function Home() {
 	return (
 		<>
 			<NavBar />
-			<div className="body_head_container ">
+
+			<div className="body_head_container  ">
 				<div id="banner" className="banner_app">
 					<Textanime />
 				</div>

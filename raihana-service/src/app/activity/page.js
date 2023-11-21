@@ -1,5 +1,6 @@
 // @ts-ignore
 import Link from "next/Link";
+import Image from "next/Image";
 import NavBar from "../components/navBar/navBar.js";
 import Footer from "../components/footer/Footer.js";
 import Item from "../components/item/Item.js";
@@ -40,7 +41,15 @@ function team() {
 				</div>
 				<div className="activity_container_description">
 					<h1 className="text-center mb-5 service_header_title">Notre equipe & mission</h1>
-					<p className="text-justify	">{data.services}</p>
+
+					<Image
+						src="/couple2.jpg"
+						width={500}
+						height={500}
+						alt="happiness picture"
+						className=" happy rounded"
+					></Image>
+					<p className="text-justify	mt-2">{data.services}</p>
 				</div>
 			</div>
 			<Footer />
