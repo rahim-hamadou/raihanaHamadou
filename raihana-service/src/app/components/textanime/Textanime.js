@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./textAnime.module.css";
+import styles from "./textanime.module.css";
 
 export default function textanime() {
 	return (
