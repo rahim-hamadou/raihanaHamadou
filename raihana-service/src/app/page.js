@@ -54,7 +54,7 @@ export default function Home() {
 					<div className="action_call">
 						<h1 className="home_header_title">{data.title} </h1>
 						<div className="icon">
-							<a className="icon_el" href="mailto:techeaseassociation@gmail.com">
+							<a className="icon_el" href="mailto:raihanamik@gmail.com">
 								<ImgComponent
 									src="/email.svg"
 									width={data.dataImg.width}
@@ -62,7 +62,7 @@ export default function Home() {
 									alt={data.dataImg.alt}
 								/>
 							</a>
-							<a className="icon_el" href="tel:0123456789">
+							<a className="icon_el" href="tel:0667862607">
 								<ImgComponent
 									src="/phonecall.svg"
 									width={data.dataImg.width}
